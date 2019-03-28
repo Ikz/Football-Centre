@@ -1,16 +1,13 @@
 <html>
         <head>
-<?php $uri = 'https://api.football-data.org/v2/matches';
-$reqPrefs['http']['method'] = 'GET';
-$reqPrefs['http']['header'] = 'X-Auth-Token: 795f8eebc19a4a3085c2eac53c6e9b30';
-$stream_context = stream_context_create($reqPrefs);
-$response = file_get_contents($uri, false, $stream_context);
-$matches = json_decode($response); ?>
                 <title>Football Centre</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="<?php echo base_url(); ?>/css/style.css" type="text/css" rel="stylesheet">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         </head>
         <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
