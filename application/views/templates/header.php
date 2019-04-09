@@ -10,6 +10,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
         </head>
         <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
@@ -27,7 +28,7 @@
 <a class="nav-link" href="standings">Standings</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="login">Login</a>
+<a class="nav-link" href="login">Members</a>
 </li>
 </ul>
 </div>
