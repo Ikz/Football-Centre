@@ -16,8 +16,8 @@
 
 <p>Welcome to the Members Area! Here you have access to exclusive stats and live scores. Click through the buttons below to find out more.</p>
 <a class="btn btn-primary btn-lg btn-block" href="livescores" role="button">Live Scores</a>
-
 <a class="btn btn-primary btn-lg btn-block" href="topscorers" role="button">Top Scorers</a>
+<a class="btn btn-primary btn-lg btn-block" href="map" role="button">Stadium Map</a>
 
 <br><br>
 </div>
